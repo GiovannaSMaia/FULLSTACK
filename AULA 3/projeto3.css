@@ -1,0 +1,72 @@
+body{
+    background-color: lightgray;
+}
+
+#titulo{
+    background-color: bisque;
+    font-size: 40px;
+    color: darkgreen;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 60px;
+    border: solid 2px;
+    color: indigo;
+     
+}
+#HOME{
+    background-color:lightskyblue;
+    font-size: 10px;
+    justify-content: space-evenly;
+    color:darkred;
+    display: flex;
+    padding: 5px;
+    
+    top: 10%;
+}
+#titulo3{
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    align-items: center;
+    color:  darkred;
+}
+
+#titulo-2{
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    align-items: center;
+}
+#texto{
+    justify-content: center;
+    left: 50%;
+    color: rgb(132, 0, 255);
+    text-align: center;
+}
+#fotos1
+{
+    display: inline-flex;
+    padding: 60px;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 5px;
+    
+    top: 10%;
+}
+#tabela{
+    border-style:dashed ;
+    color: darkred;
+    font-size: 15px;
+    width: 250px;
+    padding: 20px;
+    justify-content: center;
+    display: inline-flex;
+    text-align: center;
+
+}
+#amarelo
+{
+    background-color: yellow;
+    justify-content: center;
+}
