@@ -1,0 +1,26 @@
+body{
+p{
+    color: rgb(235, 11, 85);
+    font-size: 18pt;
+}
+ background-color: pink;
+
+#backcolor
+{
+    background-color:blueviolet;
+}
+#paragrafodeintroducao
+{
+    color: black;
+}
+a:hover{
+    color:aquamarine;
+}
+#projects{
+
+    font-size: 18pt;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}}

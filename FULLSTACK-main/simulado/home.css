@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+#caixa{background-color: red;}
+
+    #titulo{
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+      border-bottom: 1px solid #000000;
+    }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+
+}
+.flex-container1{
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+  white-space: normal;   /* padrão: quebra automaticamente */
+  word-wrap: break-word; /* quebra palavras muito longas */
+  overflow-wrap: break-word; /* substituto mais moderno do word-wrap */
+}
+
+    #titulo3{
+    font-size: 15px;
+    color: red;
+    justify-content: center;
+    }
+
+    #imagens{
+    margin: 60px;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    top: 10%;
+    margin-right: 10px;
+    }
+
+    #imagens2{
+    justify-content: space-between ;
+    margin-right: 10px;
+    }
+
+    #imagens3{
+    justify-content: space-between ;
+    margin-left: 5px;
+    }
+    
+    #imagem{
+    margin-right: 15px;
+    justify-content: space-between;
+    font-size: 5px;
+    background-color: red;
+    }
+
+    #alinhamento{
+  background: red;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  
+  justify-content: space-between; /* joga um para a esquerda e outro para a direita */
+  align-items: center;            /* alinha verticalmente */
+  gap: 20px;                      /* espaço entre título e subtítulo */
+    }
+    .h {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  flex: 1;                        /* ocupa espaço restante à esquerda */
+    }
+  .subtitulo {
+  font-size: 12px;
+  text-align: right;
+  flex: 1;                        /* ocupa espaço restante à direita */
+    }
+
+    #cor{
+    font-size: 5px;
+    color: red;
+    }
+
+    #fonte{
+    font-size: 10px;
+    color: rgb(105, 105, 105);
+    }
+
+    #correio{
+    text-align: left;
+    font-size: 30px;
+    color: honeydew;
+    }
+
+    #correio2{
+    background-color: grey;
+    margin-left: 25%;
+    width: 50%;
+    
+    }
+
+    #video{
+    margin-right: 25%;
+    
+    }
+
+.flex-container2{
+    align-content: center;
+}
+
+#cor{
+    background-color: rgb(238, 233, 228);
+align-items: space-between;
+flex-direction: row;
+}
+    #corr{
+    justify-content: left;
+    font-size: 10px;
+    margin-left: 1%;
+    }
+
+
+
+
+.topo {
+  display: flex;
+  justify-content: space-between; /* empurra logo para esquerda e caixa para direita */
+  align-items: center;
+ 
+  padding: 10px 20px;
+  border-bottom: 1px solid #707070;
+}
+
+    #redes{justify-content: space-around;}
+
+
+.caixa-direita {
+  text-align: right;   /* texto alinhado à direita */
+  font-size: 20px;
+  color: #333;
+  justify-content: space-around;
+    }
+
+
+.caixa-direita .info {
+  margin-bottom: 5px;
+  justify-content: space-around;
+   border-bottom: 1px solid #707070;
+    }
+
+
+.caixa-direita a {
+  color: #555;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+    #espaço{justify-content: space-around;}
+
+
+.caixa-direita a:hover {
+  color: #d00; /* efeito ao passar mouse */
+    }
+
+
+.margem {
+ margin-left: 1%; 
+ margin-right: 1%;
+}
+
+#linha{border-bottom: 1px solid #707070;}
+
+.item {
+  display: column;  /* ficam lado a lado */
+
+}
