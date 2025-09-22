@@ -1,0 +1,97 @@
+body{
+    background-color: #F5F5F7;
+}
+#borda{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#rodape{
+justify-content: space-between;
+display: flex;
+padding: 5px;
+font-size: 30%;
+align-items: baseline;
+align-items: center;
+margin-left: 30%;
+color: rgb(87, 86, 86);
+margin-right: 30%;
+}
+#loja2{
+    color: black;
+font-size: 90%;
+justify-content: flex-start;
+}
+#loja{
+justify-content: flex-start;
+color: rgb(87, 86, 86);
+font-size: 90%;
+}
+#imagens{
+    align-items: baseline;
+    align-items:flex-start;
+    position: relative;
+    padding: 10%;
+    justify-content: space-between;
+}
+#inline{
+    flex-direction: row;
+    align-items:flex-start;
+    position: relative;
+display: flex;
+font-size: 60%;
+align-items: baseline;
+}
+#margem{
+    padding-left: 4%;
+}
+#linha{
+    display: block;
+    align-items: baseline;
+}
+#caixa1{
+    background-color: white;
+    margin-right: 90%;
+}
+#fonte{
+    font-size: 60%;
+}
+#fonte2{
+    font-size: 70%;
+    color: black;
+}
+#caixa2{
+
+    background-color: rgb(0, 0, 0);
+    margin-right: 90%;
+}
+#fonte3{
+    font-size: 60%;
+    color: white;
+}
+#fonte4{
+    font-size: 70%;
+    color: white;
+}
+#inline2{
+    flex-direction: row;
+    align-items:flex-start;
+    display: flex;
+    
+
+}
+#cor{
+    color: black;
+    font-size: 60%
+}
+#cor2{
+    color: rgb(87, 86, 86);
+    font-size: 60%
+}
+#linha2{
+    display: inline;
+
+}
+#fonte2{
+    font-size: 70%;
+    color: rgb(0, 0, 0);
+}
